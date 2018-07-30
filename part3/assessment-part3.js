@@ -13,8 +13,11 @@
 // return the result of your updateAnimal invocation
 
 // CODE HERE...
-
-
+function callBinding(magicAnimals, updateAnimal, id) {
+  if (magicAnimals == id) {
+    return updateAnimal(Trogdor);
+  }
+}
 
 // *************
 // * PROBLEM 2 *
@@ -28,9 +31,7 @@
 // return the result of your updateAnimal invocation
 
 // CODE HERE...
-
-
-
+function applyBinding(magicAnimals, updateAnimal, id) {}
 // *************
 // * PROBLEM 3 *
 // *************
@@ -48,8 +49,6 @@
 var foo;
 
 // CODE HERE...
-
-
 
 // *************
 // * PROBLEM 4 *
